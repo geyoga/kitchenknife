@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D3EAF465268C577700DA91E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF464268C577700DA91E9 /* AppDelegate.swift */; };
-		D3EAF467268C577700DA91E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF466268C577700DA91E9 /* SceneDelegate.swift */; };
 		D3EAF469268C577700DA91E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF468268C577700DA91E9 /* ViewController.swift */; };
-		D3EAF46C268C577700DA91E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EAF46A268C577700DA91E9 /* Main.storyboard */; };
 		D3EAF46E268C577800DA91E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EAF46D268C577800DA91E9 /* Assets.xcassets */; };
 		D3EAF471268C577800DA91E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EAF46F268C577800DA91E9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		D3EAF461268C577700DA91E9 /* KitchenKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3EAF464268C577700DA91E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3EAF466268C577700DA91E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D3EAF468268C577700DA91E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D3EAF46B268C577700DA91E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3EAF46D268C577800DA91E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3EAF470268C577800DA91E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3EAF472268C577800DA91E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				D3EAF464268C577700DA91E9 /* AppDelegate.swift */,
-				D3EAF466268C577700DA91E9 /* SceneDelegate.swift */,
 				D3EAF468268C577700DA91E9 /* ViewController.swift */,
-				D3EAF46A268C577700DA91E9 /* Main.storyboard */,
 				D3EAF46D268C577800DA91E9 /* Assets.xcassets */,
 				D3EAF46F268C577800DA91E9 /* LaunchScreen.storyboard */,
 				D3EAF472268C577800DA91E9 /* Info.plist */,
@@ -126,7 +120,6 @@
 			files = (
 				D3EAF471268C577800DA91E9 /* LaunchScreen.storyboard in Resources */,
 				D3EAF46E268C577800DA91E9 /* Assets.xcassets in Resources */,
-				D3EAF46C268C577700DA91E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,21 +132,12 @@
 			files = (
 				D3EAF469268C577700DA91E9 /* ViewController.swift in Sources */,
 				D3EAF465268C577700DA91E9 /* AppDelegate.swift in Sources */,
-				D3EAF467268C577700DA91E9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D3EAF46A268C577700DA91E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3EAF46B268C577700DA91E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D3EAF46F268C577800DA91E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lemmonlabs.KitchenKnife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lemmonlabs.KitchenKnife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
