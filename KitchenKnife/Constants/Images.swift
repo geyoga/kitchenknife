@@ -19,6 +19,11 @@
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 internal enum Asset {
   internal static let accentColor = ColorAsset(name: "AccentColor")
+  internal enum SplashScreen {
+
+    internal static let background = ImageAsset(name: "SplashScreen/Background")
+    internal static let logo = ImageAsset(name: "SplashScreen/Logo")
+  }
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 
