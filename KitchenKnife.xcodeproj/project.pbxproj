@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,40 @@
 		D3EAF469268C577700DA91E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF468268C577700DA91E9 /* ViewController.swift */; };
 		D3EAF46E268C577800DA91E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EAF46D268C577800DA91E9 /* Assets.xcassets */; };
 		D3EAF471268C577800DA91E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EAF46F268C577800DA91E9 /* LaunchScreen.storyboard */; };
+		D3EAF48E268CB72800DA91E9 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAF48D268CB72800DA91E9 /* PromiseKit */; };
+		D3EAF492268CB75100DA91E9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAF491268CB75100DA91E9 /* Kingfisher */; };
+		D3EAF496268CB76300DA91E9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAF495268CB76300DA91E9 /* SnapKit */; };
+		D3EAF49A268CB77B00DA91E9 /* LBTATools in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAF499268CB77B00DA91E9 /* LBTATools */; };
+		D3EAF4A4268CB86B00DA91E9 /* PMKFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAF4A3268CB86B00DA91E9 /* PMKFoundation */; };
+		D3EAF4A8268CB88500DA91E9 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAF4A7268CB88500DA91E9 /* SwiftyJSON */; };
+		D3EAF4AC268CB8C500DA91E9 /* NotificationBannerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAF4AB268CB8C500DA91E9 /* NotificationBannerSwift */; };
+		D3EAF4B0268CB8E800DA91E9 /* DZNEmptyDataSet in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAF4AF268CB8E800DA91E9 /* DZNEmptyDataSet */; };
+		D3EAF4B4268CB90300DA91E9 /* NavKit in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAF4B3268CB90300DA91E9 /* NavKit */; };
+		D3EAF4B8268CB92C00DA91E9 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAF4B7268CB92C00DA91E9 /* FloatingPanel */; };
+		D3EAF4BC268CB95700DA91E9 /* DateHelper in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAF4BB268CB95700DA91E9 /* DateHelper */; };
+		D3EAF4C0268CB98100DA91E9 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAF4BF268CB98100DA91E9 /* IQKeyboardManagerSwift */; };
+		D3EAF4C4268CB99F00DA91E9 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAF4C3268CB99F00DA91E9 /* MBProgressHUD */; };
+		D3EAF4CA268CB9E800DA91E9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF4C9268CB9E800DA91E9 /* Theme.swift */; };
+		D3EAF4CD268CBA1F00DA91E9 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF4CC268CBA1F00DA91E9 /* APIHelper.swift */; };
+		D3EAF4D0268CBA8900DA91E9 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF4CF268CBA8900DA91E9 /* Images.swift */; };
+		D3EAF4D3268CBAAA00DA91E9 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF4D2268CBAAA00DA91E9 /* Localized.swift */; };
+		D3EAF4DE268CBB0E00DA91E9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3EAF4DC268CBB0E00DA91E9 /* Localizable.strings */; };
+		D3EAF4E6268CBBB300DA91E9 /* AdaptableKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF4E5268CBBB300DA91E9 /* AdaptableKeyboard.swift */; };
+		D3EAF4EA268CBBCE00DA91E9 /* DismissableKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF4E9268CBBCE00DA91E9 /* DismissableKeyboard.swift */; };
+		D3EAF4ED268CBBDA00DA91E9 /* FormattableNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF4EC268CBBDA00DA91E9 /* FormattableNumber.swift */; };
+		D3EAF4FC268CBCE400DA91E9 /* BaseScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF4FB268CBCE400DA91E9 /* BaseScrollView.swift */; };
+		D3EAF500268CBCF600DA91E9 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF4FF268CBCF600DA91E9 /* BaseView.swift */; };
+		D3EAF503268CBD3500DA91E9 /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF502268CBD3500DA91E9 /* CommonView.swift */; };
+		D3EAF506268CBD7000DA91E9 /* SeparableCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF505268CBD7000DA91E9 /* SeparableCornerRadius.swift */; };
+		D3EAF509268CBD8C00DA91E9 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF508268CBD8C00DA91E9 /* LineView.swift */; };
+		D3EAF50D268CBDEF00DA91E9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF50C268CBDEF00DA91E9 /* TableViewCell.swift */; };
+		D3EAF510268CBE0200DA91E9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF50F268CBE0200DA91E9 /* TableViewController.swift */; };
+		D3EAF513268CBE8000DA91E9 /* AlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF512268CBE8000DA91E9 /* AlignedCollectionViewFlowLayout.swift */; };
+		D3EAF516268CBEA300DA91E9 /* UIEdgeInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF515268CBEA300DA91E9 /* UIEdgeInset.swift */; };
+		D3EAF519268CBEC100DA91E9 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF518268CBEC100DA91E9 /* UIView+Layout.swift */; };
+		D3EAF51C268CBEE400DA91E9 /* LoadingViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF51B268CBEE400DA91E9 /* LoadingViewExtensions.swift */; };
+		D3EAF51F268CBF1E00DA91E9 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF51E268CBF1E00DA91E9 /* ImageLoader.swift */; };
+		D3EAF530268CC14900DA91E9 /* MultiLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF52F268CC14900DA91E9 /* MultiLanguage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +54,27 @@
 		D3EAF46D268C577800DA91E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3EAF470268C577800DA91E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3EAF472268C577800DA91E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EAF4C9268CB9E800DA91E9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		D3EAF4CC268CBA1F00DA91E9 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		D3EAF4CF268CBA8900DA91E9 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		D3EAF4D2268CBAAA00DA91E9 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
+		D3EAF4DD268CBB0E00DA91E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		D3EAF4E5268CBBB300DA91E9 /* AdaptableKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptableKeyboard.swift; sourceTree = "<group>"; };
+		D3EAF4E9268CBBCE00DA91E9 /* DismissableKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissableKeyboard.swift; sourceTree = "<group>"; };
+		D3EAF4EC268CBBDA00DA91E9 /* FormattableNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattableNumber.swift; sourceTree = "<group>"; };
+		D3EAF4FB268CBCE400DA91E9 /* BaseScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScrollView.swift; sourceTree = "<group>"; };
+		D3EAF4FF268CBCF600DA91E9 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		D3EAF502268CBD3500DA91E9 /* CommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonView.swift; sourceTree = "<group>"; };
+		D3EAF505268CBD7000DA91E9 /* SeparableCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparableCornerRadius.swift; sourceTree = "<group>"; };
+		D3EAF508268CBD8C00DA91E9 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		D3EAF50C268CBDEF00DA91E9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D3EAF50F268CBE0200DA91E9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D3EAF512268CBE8000DA91E9 /* AlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		D3EAF515268CBEA300DA91E9 /* UIEdgeInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEdgeInset.swift; sourceTree = "<group>"; };
+		D3EAF518268CBEC100DA91E9 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		D3EAF51B268CBEE400DA91E9 /* LoadingViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewExtensions.swift; sourceTree = "<group>"; };
+		D3EAF51E268CBF1E00DA91E9 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		D3EAF52F268CC14900DA91E9 /* MultiLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLanguage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +82,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EAF4A4268CB86B00DA91E9 /* PMKFoundation in Frameworks */,
+				D3EAF4A8268CB88500DA91E9 /* SwiftyJSON in Frameworks */,
+				D3EAF496268CB76300DA91E9 /* SnapKit in Frameworks */,
+				D3EAF4B0268CB8E800DA91E9 /* DZNEmptyDataSet in Frameworks */,
+				D3EAF49A268CB77B00DA91E9 /* LBTATools in Frameworks */,
+				D3EAF492268CB75100DA91E9 /* Kingfisher in Frameworks */,
+				D3EAF4C0268CB98100DA91E9 /* IQKeyboardManagerSwift in Frameworks */,
+				D3EAF48E268CB72800DA91E9 /* PromiseKit in Frameworks */,
+				D3EAF4AC268CB8C500DA91E9 /* NotificationBannerSwift in Frameworks */,
+				D3EAF4B8268CB92C00DA91E9 /* FloatingPanel in Frameworks */,
+				D3EAF4BC268CB95700DA91E9 /* DateHelper in Frameworks */,
+				D3EAF4C4268CB99F00DA91E9 /* MBProgressHUD in Frameworks */,
+				D3EAF4B4268CB90300DA91E9 /* NavKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +129,7 @@
 				D3EAF485268CB5B700DA91E9 /* Others */,
 				D3EAF484268CB5B300DA91E9 /* Service */,
 				D3EAF483268CB5AD00DA91E9 /* Storyboard */,
+				D3EAF4E2268CBB4F00DA91E9 /* Utils */,
 				D3EAF482268CB58200DA91E9 /* Views */,
 			);
 			path = KitchenKnife;
@@ -69,6 +138,10 @@
 		D3EAF480268CB57000DA91E9 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				D3EAF4C6268CB9C500DA91E9 /* Enums */,
+				D3EAF4C7268CB9CC00DA91E9 /* Navigator */,
+				D3EAF4C9268CB9E800DA91E9 /* Theme.swift */,
+				D3EAF4CC268CBA1F00DA91E9 /* APIHelper.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -76,6 +149,8 @@
 		D3EAF482268CB58200DA91E9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D3EAF4F9268CBCA400DA91E9 /* Base */,
+				D3EAF4FA268CBCA700DA91E9 /* Common */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -91,6 +166,7 @@
 		D3EAF484268CB5B300DA91E9 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				D3EAF4E0268CBB1700DA91E9 /* API */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -107,6 +183,7 @@
 		D3EAF486268CB5BC00DA91E9 /* Localizable */ = {
 			isa = PBXGroup;
 			children = (
+				D3EAF4DB268CBAFC00DA91E9 /* en.lproj */,
 			);
 			path = Localizable;
 			sourceTree = "<group>";
@@ -114,6 +191,8 @@
 		D3EAF487268CB5C200DA91E9 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D3EAF4D9268CBADF00DA91E9 /* Models */,
+				D3EAF4DA268CBAE300DA91E9 /* ViewModels */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -121,6 +200,10 @@
 		D3EAF488268CB5C500DA91E9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D3EAF4D5268CBAB100DA91E9 /* Base */,
+				D3EAF4D6268CBAB700DA91E9 /* Layout */,
+				D3EAF4D7268CBABA00DA91E9 /* Main */,
+				D3EAF4D8268CBABF00DA91E9 /* TableAndCollections */,
 				D3EAF468268C577700DA91E9 /* ViewController.swift */,
 			);
 			path = Controllers;
@@ -129,6 +212,8 @@
 		D3EAF489268CB5CB00DA91E9 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				D3EAF4CF268CBA8900DA91E9 /* Images.swift */,
+				D3EAF4D2268CBAAA00DA91E9 /* Localized.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -139,6 +224,226 @@
 				D3EAF46D268C577800DA91E9 /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		D3EAF4C6268CB9C500DA91E9 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		D3EAF4C7268CB9CC00DA91E9 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		D3EAF4D5268CBAB100DA91E9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D3EAF4D6268CBAB700DA91E9 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		D3EAF4D7268CBABA00DA91E9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D3EAF4D8268CBABF00DA91E9 /* TableAndCollections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableAndCollections;
+			sourceTree = "<group>";
+		};
+		D3EAF4D9268CBADF00DA91E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3EAF4DA268CBAE300DA91E9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D3EAF4DB268CBAFC00DA91E9 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF4DC268CBB0E00DA91E9 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		D3EAF4E0268CBB1700DA91E9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF4E1268CBB1C00DA91E9 /* Base */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		D3EAF4E1268CBB1C00DA91E9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D3EAF4E2268CBB4F00DA91E9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF4E3268CBB5D00DA91E9 /* Contract */,
+				D3EAF4E4268CBB6200DA91E9 /* Helpers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D3EAF4E3268CBB5D00DA91E9 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF4E5268CBBB300DA91E9 /* AdaptableKeyboard.swift */,
+				D3EAF4E9268CBBCE00DA91E9 /* DismissableKeyboard.swift */,
+				D3EAF4EC268CBBDA00DA91E9 /* FormattableNumber.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		D3EAF4E4268CBB6200DA91E9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF4EF268CBBED00DA91E9 /* EmptyState */,
+				D3EAF4F0268CBBF300DA91E9 /* LoadImage */,
+				D3EAF4F1268CBBFC00DA91E9 /* MultiLanguage */,
+				D3EAF4F2268CBC0300DA91E9 /* Navigation */,
+				D3EAF4F3268CBC0800DA91E9 /* Network */,
+				D3EAF4F4268CBC0C00DA91E9 /* Realm */,
+				D3EAF4F5268CBC1E00DA91E9 /* SheetDrawer */,
+				D3EAF4F6268CBC2300DA91E9 /* String */,
+				D3EAF4F7268CBC3700DA91E9 /* ToastBanner */,
+				D3EAF4F8268CBC4D00DA91E9 /* UI */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D3EAF4EF268CBBED00DA91E9 /* EmptyState */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EmptyState;
+			sourceTree = "<group>";
+		};
+		D3EAF4F0268CBBF300DA91E9 /* LoadImage */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF51E268CBF1E00DA91E9 /* ImageLoader.swift */,
+			);
+			path = LoadImage;
+			sourceTree = "<group>";
+		};
+		D3EAF4F1268CBBFC00DA91E9 /* MultiLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF52F268CC14900DA91E9 /* MultiLanguage.swift */,
+			);
+			path = MultiLanguage;
+			sourceTree = "<group>";
+		};
+		D3EAF4F2268CBC0300DA91E9 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		D3EAF4F3268CBC0800DA91E9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D3EAF4F4268CBC0C00DA91E9 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		D3EAF4F5268CBC1E00DA91E9 /* SheetDrawer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SheetDrawer;
+			sourceTree = "<group>";
+		};
+		D3EAF4F6268CBC2300DA91E9 /* String */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		D3EAF4F7268CBC3700DA91E9 /* ToastBanner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ToastBanner;
+			sourceTree = "<group>";
+		};
+		D3EAF4F8268CBC4D00DA91E9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF50B268CBDE000DA91E9 /* Table */,
+				D3EAF512268CBE8000DA91E9 /* AlignedCollectionViewFlowLayout.swift */,
+				D3EAF515268CBEA300DA91E9 /* UIEdgeInset.swift */,
+				D3EAF518268CBEC100DA91E9 /* UIView+Layout.swift */,
+				D3EAF51B268CBEE400DA91E9 /* LoadingViewExtensions.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D3EAF4F9268CBCA400DA91E9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF4FB268CBCE400DA91E9 /* BaseScrollView.swift */,
+				D3EAF4FF268CBCF600DA91E9 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D3EAF4FA268CBCA700DA91E9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF502268CBD3500DA91E9 /* CommonView.swift */,
+				D3EAF505268CBD7000DA91E9 /* SeparableCornerRadius.swift */,
+				D3EAF508268CBD8C00DA91E9 /* LineView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D3EAF50B268CBDE000DA91E9 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF50C268CBDEF00DA91E9 /* TableViewCell.swift */,
+				D3EAF50F268CBE0200DA91E9 /* TableViewController.swift */,
+			);
+			path = Table;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,12 +457,28 @@
 				D3EAF45E268C577700DA91E9 /* Frameworks */,
 				D3EAF45F268C577700DA91E9 /* Resources */,
 				D3EAF47E268CB45A00DA91E9 /* SwiftLint */,
+				D3EAF52D268CC11200DA91E9 /* SwiftGen */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = KitchenKnife;
+			packageProductDependencies = (
+				D3EAF48D268CB72800DA91E9 /* PromiseKit */,
+				D3EAF491268CB75100DA91E9 /* Kingfisher */,
+				D3EAF495268CB76300DA91E9 /* SnapKit */,
+				D3EAF499268CB77B00DA91E9 /* LBTATools */,
+				D3EAF4A3268CB86B00DA91E9 /* PMKFoundation */,
+				D3EAF4A7268CB88500DA91E9 /* SwiftyJSON */,
+				D3EAF4AB268CB8C500DA91E9 /* NotificationBannerSwift */,
+				D3EAF4AF268CB8E800DA91E9 /* DZNEmptyDataSet */,
+				D3EAF4B3268CB90300DA91E9 /* NavKit */,
+				D3EAF4B7268CB92C00DA91E9 /* FloatingPanel */,
+				D3EAF4BB268CB95700DA91E9 /* DateHelper */,
+				D3EAF4BF268CB98100DA91E9 /* IQKeyboardManagerSwift */,
+				D3EAF4C3268CB99F00DA91E9 /* MBProgressHUD */,
+			);
 			productName = KitchenKnife;
 			productReference = D3EAF461268C577700DA91E9 /* KitchenKnife.app */;
 			productType = "com.apple.product-type.application";
@@ -185,6 +506,21 @@
 				Base,
 			);
 			mainGroup = D3EAF458268C577700DA91E9;
+			packageReferences = (
+				D3EAF48C268CB72800DA91E9 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+				D3EAF490268CB75100DA91E9 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				D3EAF494268CB76300DA91E9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D3EAF498268CB77B00DA91E9 /* XCRemoteSwiftPackageReference "LBTATools" */,
+				D3EAF4A2268CB86B00DA91E9 /* XCRemoteSwiftPackageReference "Foundation" */,
+				D3EAF4A6268CB88500DA91E9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				D3EAF4AA268CB8C500DA91E9 /* XCRemoteSwiftPackageReference "NotificationBanner" */,
+				D3EAF4AE268CB8E800DA91E9 /* XCRemoteSwiftPackageReference "DZNEmptyDataSet" */,
+				D3EAF4B2268CB90300DA91E9 /* XCRemoteSwiftPackageReference "NavKit" */,
+				D3EAF4B6268CB92C00DA91E9 /* XCRemoteSwiftPackageReference "FloatingPanel" */,
+				D3EAF4BA268CB95600DA91E9 /* XCRemoteSwiftPackageReference "DateHelper" */,
+				D3EAF4BE268CB98100DA91E9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				D3EAF4C2268CB99F00DA91E9 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+			);
 			productRefGroup = D3EAF462268C577700DA91E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -200,6 +536,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3EAF471268C577800DA91E9 /* LaunchScreen.storyboard in Resources */,
+				D3EAF4DE268CBB0E00DA91E9 /* Localizable.strings in Resources */,
 				D3EAF46E268C577800DA91E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +562,24 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif command -v tools/swiftlint-0.38.2/swiftlint >/dev/null; then\ntools/swiftlint-0.38.2/swiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		D3EAF52D268CC11200DA91E9 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/tools/swiftgen-6.1.0/bin/swiftgen\" xcassets -t swift4 \"$PROJECT_DIR/$PROJECT_NAME/Assets/Assets.xcassets\" --output \"$PROJECT_DIR/$PROJECT_NAME/Constants/Images.swift\"\n\"$PROJECT_DIR/tools/swiftgen-6.1.0/bin/swiftgen\" strings -t structured-swift4-localizable \"$PROJECT_DIR/$PROJECT_NAME/Localizable/en.lproj/Localizable.strings\" --output \"$PROJECT_DIR/$PROJECT_NAME/Constants/Localized.swift\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -232,8 +587,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EAF50D268CBDEF00DA91E9 /* TableViewCell.swift in Sources */,
+				D3EAF4CD268CBA1F00DA91E9 /* APIHelper.swift in Sources */,
+				D3EAF4D3268CBAAA00DA91E9 /* Localized.swift in Sources */,
+				D3EAF4FC268CBCE400DA91E9 /* BaseScrollView.swift in Sources */,
+				D3EAF516268CBEA300DA91E9 /* UIEdgeInset.swift in Sources */,
+				D3EAF513268CBE8000DA91E9 /* AlignedCollectionViewFlowLayout.swift in Sources */,
+				D3EAF4CA268CB9E800DA91E9 /* Theme.swift in Sources */,
+				D3EAF4ED268CBBDA00DA91E9 /* FormattableNumber.swift in Sources */,
+				D3EAF4D0268CBA8900DA91E9 /* Images.swift in Sources */,
+				D3EAF506268CBD7000DA91E9 /* SeparableCornerRadius.swift in Sources */,
 				D3EAF469268C577700DA91E9 /* ViewController.swift in Sources */,
+				D3EAF530268CC14900DA91E9 /* MultiLanguage.swift in Sources */,
+				D3EAF4EA268CBBCE00DA91E9 /* DismissableKeyboard.swift in Sources */,
+				D3EAF4E6268CBBB300DA91E9 /* AdaptableKeyboard.swift in Sources */,
+				D3EAF510268CBE0200DA91E9 /* TableViewController.swift in Sources */,
+				D3EAF51F268CBF1E00DA91E9 /* ImageLoader.swift in Sources */,
+				D3EAF500268CBCF600DA91E9 /* BaseView.swift in Sources */,
 				D3EAF465268C577700DA91E9 /* AppDelegate.swift in Sources */,
+				D3EAF509268CBD8C00DA91E9 /* LineView.swift in Sources */,
+				D3EAF519268CBEC100DA91E9 /* UIView+Layout.swift in Sources */,
+				D3EAF503268CBD3500DA91E9 /* CommonView.swift in Sources */,
+				D3EAF51C268CBEE400DA91E9 /* LoadingViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +621,14 @@
 				D3EAF470268C577800DA91E9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D3EAF4DC268CBB0E00DA91E9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EAF4DD268CBB0E00DA91E9 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -429,6 +812,181 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3EAF48C268CB72800DA91E9 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.15.3;
+			};
+		};
+		D3EAF490268CB75100DA91E9 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.0;
+			};
+		};
+		D3EAF494268CB76300DA91E9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		D3EAF498268CB77B00DA91E9 /* XCRemoteSwiftPackageReference "LBTATools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bhlvoong/LBTATools";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.17;
+			};
+		};
+		D3EAF4A2268CB86B00DA91E9 /* XCRemoteSwiftPackageReference "Foundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PromiseKit/Foundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.4.0;
+			};
+		};
+		D3EAF4A6268CB88500DA91E9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		D3EAF4AA268CB8C500DA91E9 /* XCRemoteSwiftPackageReference "NotificationBanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Daltron/NotificationBanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.6;
+			};
+		};
+		D3EAF4AE268CB8E800DA91E9 /* XCRemoteSwiftPackageReference "DZNEmptyDataSet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dzenbot/DZNEmptyDataSet";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D3EAF4B2268CB90300DA91E9 /* XCRemoteSwiftPackageReference "NavKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/developer-inspira/NavKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.1;
+			};
+		};
+		D3EAF4B6268CB92C00DA91E9 /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scenee/FloatingPanel";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+		D3EAF4BA268CB95600DA91E9 /* XCRemoteSwiftPackageReference "DateHelper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/melvitax/DateHelper";
+			requirement = {
+				kind = exactVersion;
+				version = 4.4.1;
+			};
+		};
+		D3EAF4BE268CB98100DA91E9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+		D3EAF4C2268CB99F00DA91E9 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3EAF48D268CB72800DA91E9 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EAF48C268CB72800DA91E9 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+		D3EAF491268CB75100DA91E9 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EAF490268CB75100DA91E9 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		D3EAF495268CB76300DA91E9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EAF494268CB76300DA91E9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D3EAF499268CB77B00DA91E9 /* LBTATools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EAF498268CB77B00DA91E9 /* XCRemoteSwiftPackageReference "LBTATools" */;
+			productName = LBTATools;
+		};
+		D3EAF4A3268CB86B00DA91E9 /* PMKFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EAF4A2268CB86B00DA91E9 /* XCRemoteSwiftPackageReference "Foundation" */;
+			productName = PMKFoundation;
+		};
+		D3EAF4A7268CB88500DA91E9 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EAF4A6268CB88500DA91E9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		D3EAF4AB268CB8C500DA91E9 /* NotificationBannerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EAF4AA268CB8C500DA91E9 /* XCRemoteSwiftPackageReference "NotificationBanner" */;
+			productName = NotificationBannerSwift;
+		};
+		D3EAF4AF268CB8E800DA91E9 /* DZNEmptyDataSet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EAF4AE268CB8E800DA91E9 /* XCRemoteSwiftPackageReference "DZNEmptyDataSet" */;
+			productName = DZNEmptyDataSet;
+		};
+		D3EAF4B3268CB90300DA91E9 /* NavKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EAF4B2268CB90300DA91E9 /* XCRemoteSwiftPackageReference "NavKit" */;
+			productName = NavKit;
+		};
+		D3EAF4B7268CB92C00DA91E9 /* FloatingPanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EAF4B6268CB92C00DA91E9 /* XCRemoteSwiftPackageReference "FloatingPanel" */;
+			productName = FloatingPanel;
+		};
+		D3EAF4BB268CB95700DA91E9 /* DateHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EAF4BA268CB95600DA91E9 /* XCRemoteSwiftPackageReference "DateHelper" */;
+			productName = DateHelper;
+		};
+		D3EAF4BF268CB98100DA91E9 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EAF4BE268CB98100DA91E9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		D3EAF4C3268CB99F00DA91E9 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EAF4C2268CB99F00DA91E9 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D3EAF459268C577700DA91E9 /* Project object */;
 }
