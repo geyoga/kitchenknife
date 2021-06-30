@@ -52,13 +52,93 @@
 		D3EAF463268C577700DA91E9 /* KitchenKnife */ = {
 			isa = PBXGroup;
 			children = (
-				D3EAF464268C577700DA91E9 /* AppDelegate.swift */,
-				D3EAF468268C577700DA91E9 /* ViewController.swift */,
-				D3EAF46D268C577800DA91E9 /* Assets.xcassets */,
-				D3EAF46F268C577800DA91E9 /* LaunchScreen.storyboard */,
-				D3EAF472268C577800DA91E9 /* Info.plist */,
+				D3EAF480268CB57000DA91E9 /* App */,
+				D3EAF48A268CB5CF00DA91E9 /* Assets */,
+				D3EAF489268CB5CB00DA91E9 /* Constants */,
+				D3EAF488268CB5C500DA91E9 /* Controllers */,
+				D3EAF487268CB5C200DA91E9 /* Data */,
+				D3EAF486268CB5BC00DA91E9 /* Localizable */,
+				D3EAF485268CB5B700DA91E9 /* Others */,
+				D3EAF484268CB5B300DA91E9 /* Service */,
+				D3EAF483268CB5AD00DA91E9 /* Storyboard */,
+				D3EAF482268CB58200DA91E9 /* Views */,
 			);
 			path = KitchenKnife;
+			sourceTree = "<group>";
+		};
+		D3EAF480268CB57000DA91E9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D3EAF482268CB58200DA91E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3EAF483268CB5AD00DA91E9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF46F268C577800DA91E9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D3EAF484268CB5B300DA91E9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D3EAF485268CB5B700DA91E9 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF464268C577700DA91E9 /* AppDelegate.swift */,
+				D3EAF472268C577800DA91E9 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D3EAF486268CB5BC00DA91E9 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		D3EAF487268CB5C200DA91E9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D3EAF488268CB5C500DA91E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF468268C577700DA91E9 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D3EAF489268CB5CB00DA91E9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D3EAF48A268CB5CF00DA91E9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAF46D268C577800DA91E9 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +374,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F63VRNN393;
-				INFOPLIST_FILE = KitchenKnife/Info.plist;
+				INFOPLIST_FILE = KitchenKnife/Others/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -314,7 +394,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F63VRNN393;
-				INFOPLIST_FILE = KitchenKnife/Info.plist;
+				INFOPLIST_FILE = KitchenKnife/Others/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
