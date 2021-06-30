@@ -1,0 +1,133 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DateHelper",
+        "repositoryURL": "https://github.com/melvitax/DateHelper",
+        "state": {
+          "branch": null,
+          "revision": "403c5b56d7b3bf1553664148a373295dc0094010",
+          "version": "4.4.1"
+        }
+      },
+      {
+        "package": "DZNEmptyDataSet",
+        "repositoryURL": "https://github.com/dzenbot/DZNEmptyDataSet",
+        "state": {
+          "branch": "master",
+          "revision": "9bffa69a83a9fa58a14b3cf43cb6dd8a63774179",
+          "version": null
+        }
+      },
+      {
+        "package": "FloatingPanel",
+        "repositoryURL": "https://github.com/scenee/FloatingPanel",
+        "state": {
+          "branch": null,
+          "revision": "b8fcb50874f50bb511173700f87b09344c568c6a",
+          "version": "2.4.0"
+        }
+      },
+      {
+        "package": "PMKFoundation",
+        "repositoryURL": "https://github.com/PromiseKit/Foundation",
+        "state": {
+          "branch": null,
+          "revision": "985f17fa69ee0e5b7eb3ff9be87ffc4e05fc0927",
+          "version": "3.4.0"
+        }
+      },
+      {
+        "package": "IQKeyboardManagerSwift",
+        "repositoryURL": "https://github.com/hackiftekhar/IQKeyboardManager.git",
+        "state": {
+          "branch": null,
+          "revision": "4dc6bc7d1c9747bd0c261c8c055903f9fdef91f7",
+          "version": "6.5.6"
+        }
+      },
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher",
+        "state": {
+          "branch": null,
+          "revision": "44450a8f564d7c0165f736ba2250649ff8d3e556",
+          "version": "6.3.0"
+        }
+      },
+      {
+        "package": "LBTATools",
+        "repositoryURL": "https://github.com/bhlvoong/LBTATools",
+        "state": {
+          "branch": null,
+          "revision": "dce147bfbdc0417a4b430ec220c088629e9dc81d",
+          "version": "1.0.17"
+        }
+      },
+      {
+        "package": "MarqueeLabel",
+        "repositoryURL": "https://github.com/cbpowell/MarqueeLabel",
+        "state": {
+          "branch": null,
+          "revision": "8349b2c103825e5b33ced9c331c5a68d10921944",
+          "version": "4.1.0"
+        }
+      },
+      {
+        "package": "MBProgressHUD",
+        "repositoryURL": "https://github.com/jdg/MBProgressHUD",
+        "state": {
+          "branch": null,
+          "revision": "bca42b801100b2b3a4eda0ba8dd33d858c780b0d",
+          "version": "1.2.0"
+        }
+      },
+      {
+        "package": "NavKit",
+        "repositoryURL": "https://github.com/developer-inspira/NavKit",
+        "state": {
+          "branch": null,
+          "revision": "60ff18e5c6811bac0507c5029e89d92a018ba333",
+          "version": "0.7.1"
+        }
+      },
+      {
+        "package": "NotificationBannerSwift",
+        "repositoryURL": "https://github.com/Daltron/NotificationBanner",
+        "state": {
+          "branch": null,
+          "revision": "2ce5c49d8ee4865f01a3ce3bbe078664c78c7a3c",
+          "version": "3.0.6"
+        }
+      },
+      {
+        "package": "PromiseKit",
+        "repositoryURL": "https://github.com/mxcl/PromiseKit",
+        "state": {
+          "branch": null,
+          "revision": "d2f7ba14bcdc45e18f4f60ad9df883fb9055f081",
+          "version": "6.15.3"
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit",
+        "state": {
+          "branch": null,
+          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "SwiftyJSON",
+        "repositoryURL": "https://github.com/SwiftyJSON/SwiftyJSON",
+        "state": {
+          "branch": null,
+          "revision": "b3dcd7dbd0d488e1a7077cb33b00f2083e382f07",
+          "version": "5.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
