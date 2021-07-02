@@ -19,6 +19,30 @@
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 internal enum Asset {
   internal static let accentColor = ColorAsset(name: "AccentColor")
+  internal enum Color {
+
+    internal static let black = ColorAsset(name: "Color/Black")
+    internal static let darkGrey = ColorAsset(name: "Color/DarkGrey")
+    internal static let lightGrey = ColorAsset(name: "Color/LightGrey")
+    internal static let main = ColorAsset(name: "Color/Main")
+    internal static let white = ColorAsset(name: "Color/White")
+  }
+  internal enum General {
+
+    internal static let back = ImageAsset(name: "General/Back")
+    internal static let category = ImageAsset(name: "General/Category")
+    internal static let chevron = ImageAsset(name: "General/Chevron")
+    internal static let search = ImageAsset(name: "General/Search")
+    internal static let star = ImageAsset(name: "General/Star")
+    internal static let tag = ImageAsset(name: "General/Tag")
+    internal static let world = ImageAsset(name: "General/World")
+  }
+  internal enum Onboarding {
+
+    internal static let cellOne = ImageAsset(name: "Onboarding/CellOne")
+    internal static let cellThree = ImageAsset(name: "Onboarding/CellThree")
+    internal static let cellTwo = ImageAsset(name: "Onboarding/CellTwo")
+  }
   internal enum SplashScreen {
 
     internal static let background = ImageAsset(name: "SplashScreen/Background")
