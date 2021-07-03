@@ -7,6 +7,26 @@
 
 import UIKit
 
+struct UIStyle {
+
+    enum Inset {
+        static let inset4: CGFloat = 4.0
+        static let inset8: CGFloat = 8.0
+        static let inset12: CGFloat = 12.0
+        static let inset16: CGFloat = 16.0
+        static let inset20: CGFloat = 20.0
+        static let inset24: CGFloat = 24.0
+        static let inset32: CGFloat = 32.0
+        static let inset40: CGFloat = 40.0
+        static let inset48: CGFloat = 48.0
+    }
+    enum CornerRadius {
+        static let radius5: CGFloat = 5.0
+        static let radius8: CGFloat = 8.0
+        static let radius12: CGFloat = 12.0
+    }
+}
+
 extension UIFont {
     static var bold40: UIFont {
         return FontFamily.HelveticaNeue.bold.font(size: 40)

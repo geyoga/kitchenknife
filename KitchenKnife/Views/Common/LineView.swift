@@ -11,7 +11,7 @@ class LineView: BaseView {
     override func setupView() {
         super.setupView()
 
-//        backgroundColor = Asset.Color.grey.color
-//        self.withHeight(1)
+        backgroundColor = Asset.Color.grey.color
+        self.withHeight(1)
     }
 }

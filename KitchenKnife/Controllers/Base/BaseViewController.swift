@@ -28,10 +28,10 @@ class BaseViewController: UIViewController, CustomizableNavigation, UIGestureRec
 
     // MARK: - Navigation Configs
 
-    //var titleFont: UIFont { return .bold20 }
-    //var titleColor: UIColor { return Asset.Color.softBlack.color }
+    var titleFont: UIFont { return .bold24 }
+    var titleColor: UIColor { return Asset.Color.black.color }
     var barBackgroundColor: UIColor { return view.backgroundColor ?? .clear }
-    //var backImage: UIImage? { return Asset.General.back.image }
+    var backImage: UIImage? { return Asset.General.back.image }
     var isBarUsingBottomShadow: Bool { return false }
     var backInset: UIEdgeInsets? { return .init(top: 5, left: 0, bottom: 5, right: 25) }
     var isUsingInteractivePopGesture: Bool { return true }
