@@ -20,7 +20,7 @@ class BaseViewController: UIViewController, CustomizableNavigation, UIGestureRec
     }()
 
     override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .default
+        return .lightContent
     }
 
     open var enablePreferredStatusBarColor: Bool { return true }

@@ -9,6 +9,13 @@ import Foundation
 
 struct Storage {
 
-    enum UserLogin {
+    enum FirstLogin {
+        static let firstLoginKey: String = "first_login_key"
+        static func setLogin(_ isLogin: Bool) {
+            UserDefaults.standard.setValue(isLogin, forKey: firstLoginKey)
+        }
+        static func getLogin() -> Bool {
+            return UserDefaults.standard.bool(forKey: firstLoginKey)
+        }
     }
 }

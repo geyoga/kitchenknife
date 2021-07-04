@@ -18,6 +18,12 @@
 		D3101FCC26902CA90065BA7B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3101FCB26902CA90065BA7B /* APIService.swift */; };
 		D3C97AE3268F71FE007BDBDD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C97AE2268F71FE007BDBDD /* BaseViewController.swift */; };
 		D3C97AE6268F7589007BDBDD /* FontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C97AE5268F7589007BDBDD /* FontFamily.swift */; };
+		D3D5667026920C3D002B9340 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D5666F26920C3D002B9340 /* OnboardingViewController.swift */; };
+		D3D5667526921145002B9340 /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D5667426921145002B9340 /* OnboardingCell.swift */; };
+		D3D5667A269211C2002B9340 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D56679269211C2002B9340 /* OnboardingModel.swift */; };
+		D3D5667E2692161F002B9340 /* OnboardingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D5667D2692161F002B9340 /* OnboardingCollectionViewController.swift */; };
+		D3D5668226921815002B9340 /* AnimatedCollectionViewLayout in Frameworks */ = {isa = PBXBuildFile; productRef = D3D5668126921815002B9340 /* AnimatedCollectionViewLayout */; };
+		D3D56685269219F2002B9340 /* OnboardingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D56684269219F2002B9340 /* OnboardingLayout.swift */; };
 		D3EAF465268C577700DA91E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF464268C577700DA91E9 /* AppDelegate.swift */; };
 		D3EAF469268C577700DA91E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF468268C577700DA91E9 /* ViewController.swift */; };
 		D3EAF46E268C577800DA91E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EAF46D268C577800DA91E9 /* Assets.xcassets */; };
@@ -67,6 +73,12 @@
 		D3101FCB26902CA90065BA7B /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		D3C97AE2268F71FE007BDBDD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		D3C97AE5268F7589007BDBDD /* FontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFamily.swift; sourceTree = "<group>"; };
+		D3D5666F26920C3D002B9340 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		D3D5667426921145002B9340 /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
+		D3D56679269211C2002B9340 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		D3D5667D2692161F002B9340 /* OnboardingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewController.swift; sourceTree = "<group>"; };
+		D3D56684269219F2002B9340 /* OnboardingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingLayout.swift; sourceTree = "<group>"; };
+		D3D566872692253B002B9340 /* KitchenKnife.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KitchenKnife.entitlements; sourceTree = "<group>"; };
 		D3EAF461268C577700DA91E9 /* KitchenKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3EAF464268C577700DA91E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3EAF468268C577700DA91E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +114,7 @@
 				D3EAF4A8268CB88500DA91E9 /* SwiftyJSON in Frameworks */,
 				D3EAF496268CB76300DA91E9 /* SnapKit in Frameworks */,
 				D3EAF4B0268CB8E800DA91E9 /* DZNEmptyDataSet in Frameworks */,
+				D3D5668226921815002B9340 /* AnimatedCollectionViewLayout in Frameworks */,
 				D3EAF49A268CB77B00DA91E9 /* LBTATools in Frameworks */,
 				D3EAF492268CB75100DA91E9 /* Kingfisher in Frameworks */,
 				D3EAF4C0268CB98100DA91E9 /* IQKeyboardManagerSwift in Frameworks */,
@@ -125,6 +138,30 @@
 			path = Storage;
 			sourceTree = "<group>";
 		};
+		D3D5666E26920C27002B9340 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				D3D5666F26920C3D002B9340 /* OnboardingViewController.swift */,
+				D3D5667D2692161F002B9340 /* OnboardingCollectionViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		D3D5667326921122002B9340 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D3D5667426921145002B9340 /* OnboardingCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D3D56678269211A5002B9340 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		D3EAF458268C577700DA91E9 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +181,7 @@
 		D3EAF463268C577700DA91E9 /* KitchenKnife */ = {
 			isa = PBXGroup;
 			children = (
+				D3D566872692253B002B9340 /* KitchenKnife.entitlements */,
 				D3EAF480268CB57000DA91E9 /* App */,
 				D3EAF48A268CB5CF00DA91E9 /* Assets */,
 				D3EAF489268CB5CB00DA91E9 /* Constants */,
@@ -176,6 +214,7 @@
 			children = (
 				D3EAF4F9268CBCA400DA91E9 /* Base */,
 				D3EAF4FA268CBCA700DA91E9 /* Common */,
+				D3D5667326921122002B9340 /* Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +264,7 @@
 		D3EAF488268CB5C500DA91E9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D3D5666E26920C27002B9340 /* Authentication */,
 				D3EAF4D5268CBAB100DA91E9 /* Base */,
 				D3EAF4D6268CBAB700DA91E9 /* Layout */,
 				D3EAF4D7268CBABA00DA91E9 /* Main */,
@@ -277,6 +317,7 @@
 		D3EAF4D6268CBAB700DA91E9 /* Layout */ = {
 			isa = PBXGroup;
 			children = (
+				D3D56684269219F2002B9340 /* OnboardingLayout.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -299,6 +340,8 @@
 		D3EAF4D9268CBADF00DA91E9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D3D56678269211A5002B9340 /* API */,
+				D3D56679269211C2002B9340 /* OnboardingModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -470,6 +513,7 @@
 				D3EAF4BB268CB95700DA91E9 /* DateHelper */,
 				D3EAF4BF268CB98100DA91E9 /* IQKeyboardManagerSwift */,
 				D3EAF4C3268CB99F00DA91E9 /* MBProgressHUD */,
+				D3D5668126921815002B9340 /* AnimatedCollectionViewLayout */,
 			);
 			productName = KitchenKnife;
 			productReference = D3EAF461268C577700DA91E9 /* KitchenKnife.app */;
@@ -512,6 +556,7 @@
 				D3EAF4BA268CB95600DA91E9 /* XCRemoteSwiftPackageReference "DateHelper" */,
 				D3EAF4BE268CB98100DA91E9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 				D3EAF4C2268CB99F00DA91E9 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				D3D5668026921815002B9340 /* XCRemoteSwiftPackageReference "AnimatedCollectionViewLayout" */,
 			);
 			productRefGroup = D3EAF462268C577700DA91E9 /* Products */;
 			projectDirPath = "";
@@ -590,18 +635,22 @@
 				D3EAF513268CBE8000DA91E9 /* AlignedCollectionViewFlowLayout.swift in Sources */,
 				D3EAF4CA268CB9E800DA91E9 /* Theme.swift in Sources */,
 				D3101FC826902BBB0065BA7B /* NetworkService.swift in Sources */,
+				D3D56685269219F2002B9340 /* OnboardingLayout.swift in Sources */,
 				D3EAF4D0268CBA8900DA91E9 /* Images.swift in Sources */,
 				D3EAF506268CBD7000DA91E9 /* SeparableCornerRadius.swift in Sources */,
 				D3101FC526902B3C0065BA7B /* SheetDrawerHelper.swift in Sources */,
+				D3D5667A269211C2002B9340 /* OnboardingModel.swift in Sources */,
 				D3EAF469268C577700DA91E9 /* ViewController.swift in Sources */,
 				D3EAF530268CC14900DA91E9 /* MultiLanguage.swift in Sources */,
 				D3EAF510268CBE0200DA91E9 /* TableViewController.swift in Sources */,
 				D3C97AE6268F7589007BDBDD /* FontFamily.swift in Sources */,
+				D3D5667526921145002B9340 /* OnboardingCell.swift in Sources */,
 				D3101FB22690292D0065BA7B /* ToastHelper.swift in Sources */,
 				D3101FC226902AB20065BA7B /* ResponseModel.swift in Sources */,
 				D3EAF51F268CBF1E00DA91E9 /* ImageLoader.swift in Sources */,
 				D3EAF500268CBCF600DA91E9 /* BaseView.swift in Sources */,
 				D3EAF465268C577700DA91E9 /* AppDelegate.swift in Sources */,
+				D3D5667026920C3D002B9340 /* OnboardingViewController.swift in Sources */,
 				D3101FBF26902A580065BA7B /* ErrorResponseModel.swift in Sources */,
 				D3EAF509268CBD8C00DA91E9 /* LineView.swift in Sources */,
 				D3101FCC26902CA90065BA7B /* APIService.swift in Sources */,
@@ -609,6 +658,7 @@
 				D3EAF503268CBD3500DA91E9 /* CommonView.swift in Sources */,
 				D3EAF51C268CBEE400DA91E9 /* LoadingViewExtensions.swift in Sources */,
 				D3101FB6269029A20065BA7B /* Storage.swift in Sources */,
+				D3D5667E2692161F002B9340 /* OnboardingCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -755,6 +805,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KitchenKnife/KitchenKnife.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F63VRNN393;
 				INFOPLIST_FILE = KitchenKnife/Others/Info.plist;
@@ -775,6 +826,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KitchenKnife/KitchenKnife.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F63VRNN393;
 				INFOPLIST_FILE = KitchenKnife/Others/Info.plist;
@@ -814,6 +866,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D3D5668026921815002B9340 /* XCRemoteSwiftPackageReference "AnimatedCollectionViewLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KelvinJin/AnimatedCollectionViewLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
 		D3EAF48C268CB72800DA91E9 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mxcl/PromiseKit";
@@ -921,6 +981,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D3D5668126921815002B9340 /* AnimatedCollectionViewLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3D5668026921815002B9340 /* XCRemoteSwiftPackageReference "AnimatedCollectionViewLayout" */;
+			productName = AnimatedCollectionViewLayout;
+		};
 		D3EAF48D268CB72800DA91E9 /* PromiseKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D3EAF48C268CB72800DA91E9 /* XCRemoteSwiftPackageReference "PromiseKit" */;

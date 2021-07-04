@@ -5,3 +5,23 @@
   Created by Georgius Yoga Dewantama on 30/06/21.
   
 */
+
+onboarding_title_one = "Welcome to Kitchen Knife";
+onboarding_desc_one = "A slice of recipe for you";
+onboarding_title_two = "Find your secret recipe around the world";
+onboarding_title_three = "Cook what ever you want";
+skip_now = "Skip for now";
+choose_category_title = "Choose Category";
+choose_category_desc = "we will show the recipe according to your choice";
+choose_category_action = "Lets Cook";
+home_title = "Recipes";
+today_pick_title = "Today’s pick";
+recommend_title = "Recommend for you";
+recipe_notfound_title_for = "Recipes for '%@' not found";
+recipe_notfound_desc = "try another keyword";
+categories_title = "Categories";
+settings_title = "Settings";
+about_developer = "About Developer";
+recipe_preferences = "Recipes Preferences";
+resource_references = "Resource References";
+logout = "Logout";

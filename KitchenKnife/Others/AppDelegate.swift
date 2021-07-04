@@ -24,9 +24,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Helper
     private func setMainWindow() {
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = MainTabBarViewController()
-        window?.makeKeyAndVisible()
+        if Storage.FirstLogin.getLogin() {
+            window = UIWindow(frame: UIScreen.main.bounds)
+            window?.rootViewController = MainTabBarViewController()
+            window?.makeKeyAndVisible()
+        } else {
+            window = UIWindow(frame: UIScreen.main.bounds)
+            window?.rootViewController = OnboardingViewController()
+            window?.makeKeyAndVisible()
+        }
     }
 
 }
