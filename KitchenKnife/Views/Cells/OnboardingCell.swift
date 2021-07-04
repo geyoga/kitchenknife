@@ -39,6 +39,7 @@ class OnboardingCell: LBTAListCell<OnboardingModel> {
         image.image?.withRenderingMode(.alwaysOriginal)
         image.contentMode = .scaleToFill
         image.clipsToBounds = true
+        image.layer.cornerRadius = UIStyle.CornerRadius.radius5
 
         return image
     }()
