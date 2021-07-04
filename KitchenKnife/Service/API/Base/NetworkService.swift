@@ -23,7 +23,7 @@ class NetworkService: NetworkServiceProtocol {
     static func request<T>(
         url: String
     ) -> Promise<T> where T: Decodable, T: Encodable {
-        
+
         return Promise { seal in
             firstly {
                 URLSession.shared.dataTask(

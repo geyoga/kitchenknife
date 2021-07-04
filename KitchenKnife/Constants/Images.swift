@@ -37,6 +37,15 @@ internal enum Asset {
     internal static let tag = ImageAsset(name: "General/Tag")
     internal static let world = ImageAsset(name: "General/World")
   }
+  internal enum MainTabBar {
+
+    internal static let categoryActive = ImageAsset(name: "MainTabBar/CategoryActive")
+    internal static let categoryInactive = ImageAsset(name: "MainTabBar/CategoryInactive")
+    internal static let homeActive = ImageAsset(name: "MainTabBar/HomeActive")
+    internal static let homeInactive = ImageAsset(name: "MainTabBar/HomeInactive")
+    internal static let settingsActive = ImageAsset(name: "MainTabBar/SettingsActive")
+    internal static let settingsInactive = ImageAsset(name: "MainTabBar/SettingsInactive")
+  }
   internal enum Onboarding {
 
     internal static let cellOne = ImageAsset(name: "Onboarding/CellOne")

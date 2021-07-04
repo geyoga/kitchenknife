@@ -16,7 +16,6 @@
 		D3101FC526902B3C0065BA7B /* SheetDrawerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3101FC426902B3C0065BA7B /* SheetDrawerHelper.swift */; };
 		D3101FC826902BBB0065BA7B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3101FC726902BBB0065BA7B /* NetworkService.swift */; };
 		D3101FCC26902CA90065BA7B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3101FCB26902CA90065BA7B /* APIService.swift */; };
-		D3C97AE0268F717D007BDBDD /* APISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C97ADF268F717D007BDBDD /* APISettings.swift */; };
 		D3C97AE3268F71FE007BDBDD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C97AE2268F71FE007BDBDD /* BaseViewController.swift */; };
 		D3C97AE6268F7589007BDBDD /* FontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C97AE5268F7589007BDBDD /* FontFamily.swift */; };
 		D3EAF465268C577700DA91E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAF464268C577700DA91E9 /* AppDelegate.swift */; };
@@ -66,7 +65,6 @@
 		D3101FC426902B3C0065BA7B /* SheetDrawerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetDrawerHelper.swift; sourceTree = "<group>"; };
 		D3101FC726902BBB0065BA7B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		D3101FCB26902CA90065BA7B /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
-		D3C97ADF268F717D007BDBDD /* APISettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISettings.swift; sourceTree = "<group>"; };
 		D3C97AE2268F71FE007BDBDD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		D3C97AE5268F7589007BDBDD /* FontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFamily.swift; sourceTree = "<group>"; };
 		D3EAF461268C577700DA91E9 /* KitchenKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,7 +166,6 @@
 				D3EAF4C7268CB9CC00DA91E9 /* Navigator */,
 				D3EAF4C9268CB9E800DA91E9 /* Theme.swift */,
 				D3EAF4CC268CBA1F00DA91E9 /* APIHelper.swift */,
-				D3C97ADF268F717D007BDBDD /* APISettings.swift */,
 				D3101FA8269027330065BA7B /* APIConstants.swift */,
 			);
 			path = App;
@@ -595,7 +592,6 @@
 				D3101FC826902BBB0065BA7B /* NetworkService.swift in Sources */,
 				D3EAF4D0268CBA8900DA91E9 /* Images.swift in Sources */,
 				D3EAF506268CBD7000DA91E9 /* SeparableCornerRadius.swift in Sources */,
-				D3C97AE0268F717D007BDBDD /* APISettings.swift in Sources */,
 				D3101FC526902B3C0065BA7B /* SheetDrawerHelper.swift in Sources */,
 				D3EAF469268C577700DA91E9 /* ViewController.swift in Sources */,
 				D3EAF530268CC14900DA91E9 /* MultiLanguage.swift in Sources */,

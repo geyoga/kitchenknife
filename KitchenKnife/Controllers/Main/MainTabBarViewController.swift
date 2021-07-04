@@ -4,13 +4,15 @@
 //
 //  Created by Georgius Yoga Dewantama on 03/07/21.
 //
+//  swiftlint:disable line_length
 
 import UIKit
 import PromiseKit
 
 enum MainTabBarItem: Int {
     case home
-    case saved
+    case category
+    case settings
 }
 
 struct TabBar {
@@ -25,10 +27,10 @@ final class MainTabBarViewController: UITabBarController, UITabBarControllerDele
     // MARK: - Properties
 
     private let tabBars: [TabBar] = [
-//        (.home, Asset.Main.homeIdle.image, Asset.Main.homeActive.image, ViewController()),
-//        (.saved, Asset.Main.savedIdle.image, Asset.Main.saveActive.image, ViewController())
+        (.home, image: Asset.MainTabBar.homeInactive.image, selectedImage: Asset.MainTabBar.homeActive.image, controller: ViewController()),
+        (.category, image: Asset.MainTabBar.categoryInactive.image, selectedImage: Asset.MainTabBar.categoryActive.image, controller: ViewController()),
+        (.settings, image: Asset.MainTabBar.settingsInactive.image, selectedImage: Asset.MainTabBar.settingsActive.image, controller: ViewController())
     ].map(TabBar.init)
-     //swiftlint:enable line_length
 
     fileprivate lazy var defaultTabBarHeight = { tabBar.frame.size.height }()
 
@@ -46,12 +48,11 @@ final class MainTabBarViewController: UITabBarController, UITabBarControllerDele
 
         navigationController?.setNavigationBarHidden(true, animated: false)
 
-
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
 
-        let newTabBarHeight = defaultTabBarHeight + UIStyle.Inset.inset12
+        let newTabBarHeight = defaultTabBarHeight
 
         var newFrame = tabBar.frame
         newFrame.size.height = newTabBarHeight
@@ -63,18 +64,15 @@ final class MainTabBarViewController: UITabBarController, UITabBarControllerDele
     // MARK: - Private Functions
 
     fileprivate func setupTabBars() {
-        tabBar.barTintColor = Asset.Color.white.color.withAlphaComponent(0.9)
-        tabBar.tintColor = Asset.Color.black.color
+        tabBar.barTintColor = Asset.Color.darkGrey.color
+        tabBar.tintColor = Asset.Color.main.color
         tabBar.shadowImage = nil
         tabBar.backgroundImage = nil
-        tabBar.layer.borderColor = Asset.Color.lightGrey.color.cgColor
-        tabBar.layer.borderWidth = 0.3
-        tabBar.layer.borderColor = UIColor(red:0.0/255.0, green:0.0/255.0, blue:0.0/255.0, alpha:0.2).cgColor
         tabBar.clipsToBounds = true
 
-        let blurEffect = UIBlurEffect(style: .light)
+        let blurEffect = UIBlurEffect(style: .dark)
         let blurView = UIVisualEffectView(effect: blurEffect)
-        blurView.frame = tabBar.bounds
+        blurView.frame = view.bounds
         blurView.autoresizingMask = .flexibleWidth
         tabBar.insertSubview(blurView, at: 0)
 

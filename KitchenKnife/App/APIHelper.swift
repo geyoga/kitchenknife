@@ -37,6 +37,7 @@ extension UIViewController {
             }
         }
 
-       /// show warning error
+        print("Error Code: \(errorCode)")
+       showWarningBanner(message: errorMessage)
     }
 }

@@ -24,9 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Helper
     private func setMainWindow() {
-        let navigation = UINavigationController(rootViewController: ViewController())
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = navigation
+        window?.rootViewController = MainTabBarViewController()
         window?.makeKeyAndVisible()
     }
 
